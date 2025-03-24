@@ -7,3 +7,12 @@
     @apply p-2 border;
   }
 }
+
+/* Add custom silver gradient for hero text */
+.silver-gradient-text {
+  background: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 50%, #b8b8b8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.2);
+}

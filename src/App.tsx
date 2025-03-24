@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Anchor, Send } from 'lucide-react';
+import { Send } from 'lucide-react';
 
 function App() {
   const [formData, setFormData] = useState({
@@ -65,20 +65,19 @@ function App() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
           <div className="flex flex-col items-center justify-center h-[calc(100vh-5rem)] text-center">
-            <div className="max-w-2xl">
-              <h1 className="text-4xl md:text-4xl font-bold text-white mb-6 tracking-tight font-futuristic">
+            <div className="max-w-3xl">
+              <h1 className="text-5xl md:text-6xl font-bold mb-6 tracking-tight font-futuristic silver-gradient-text">
                 BLACK HAWK MARINE
               </h1>
-              <p className="text-xl text-gray-200 mb-8 font-light leading-relaxed font-tech">
+              <p className="text-2xl text-gray-200 mb-10 font-light leading-relaxed font-tech">
                 Gold Coast's leading specialists in Rigid Inflatable Boats. 
                 Contact us now so we can Custom Build your new RIB.
               </p>
               <div className="flex justify-center space-x-4">
                 <a
                   href="#contact"
-                  className="px-8 py-4 backdrop-blur-md bg-white/20 border border-gray-400/50 text-white rounded-lg hover:bg-white/30 transition flex items-center font-light"
+                  className="px-10 py-5 text-lg backdrop-blur-md bg-white/15 border border-gray-400/30 text-white rounded-full hover:bg-white/20 transition font-medium font-futuristic"
                 >
-                  <Anchor className="h-5 w-5 mr-2" />
                   Get Started
                 </a>
               </div>
@@ -163,7 +162,7 @@ function App() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-100 text-gray-800 py-12">
+      <footer className="bg-black text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
@@ -172,13 +171,13 @@ function App() {
                 alt="Black Hawk Marine Logo"
                 className="h-12 w-auto filter invert"
               />
-              <p className="mt-2 text-gray-600 text-sm">
+              <p className="mt-2 text-gray-400 text-sm">
                 &copy; {new Date().getFullYear()} Black Hawk Marine. All rights reserved.
               </p>
             </div>
             <div className="flex flex-col space-y-2">
-              <a href="#" className="text-gray-700 hover:text-black transition">Home</a>
-              <a href="#contact" className="text-gray-700 hover:text-black transition">Contact</a>
+              <a href="#" className="text-gray-300 hover:text-white transition">Home</a>
+              <a href="#contact" className="text-gray-300 hover:text-white transition">Contact</a>
             </div>
           </div>
         </div>
