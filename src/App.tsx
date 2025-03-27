@@ -36,9 +36,9 @@ function App() {
     <div className="min-h-screen bg-white font-sans">
       {/* Sticky Navbar - Completely Transparent */}
       <nav className="fixed top-0 left-0 w-full z-50 py-4">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+        <div className="w-full px-6 sm:px-8 lg:px-12 flex justify-between items-center">
           <img
-            src="/companylogo.svg"
+            src="/herologo1.png"
             alt="Black Hawk Marine Logo"
             className="h-12 w-auto filter invert"
           />
@@ -63,20 +63,24 @@ function App() {
           <div className="absolute inset-0 bg-black/60"></div>
         </div>
         
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
-          <div className="flex flex-col items-center justify-center h-[calc(100vh-5rem)] text-center">
-            <div className="max-w-3xl">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 tracking-tight font-futuristic silver-gradient-text">
-                BLACK HAWK MARINE
-              </h1>
-              <p className="text-2xl text-gray-200 mb-10 font-light leading-relaxed font-tech">
+        <div className="relative w-full h-full">
+          <div className="absolute bottom-10 w-full text-left max-w-none px-6 sm:px-8 lg:px-12 sm:max-w-3xl sm:pl-6 lg:pl-12">
+            <div className="flex justify-center sm:justify-start">
+              <img 
+                src="/textonlybanner.png" 
+                alt="BLACK HAWK MARINE" 
+                className="mb-2 w-full max-w-xs sm:max-w-xl filter invert"
+              />
+            </div>
+            <div className="text-center sm:text-left">
+              <p className="text-2xl sm:text-3xl text-gray-200 mb-8 font-light tracking-normal leading-relaxed">
                 Gold Coast's leading specialists in Rigid Inflatable Boats. 
                 Contact us now so we can Custom Build your new RIB.
               </p>
-              <div className="flex justify-center space-x-4">
+              <div className="flex justify-center sm:justify-start space-x-4">
                 <a
                   href="#contact"
-                  className="px-10 py-5 text-lg backdrop-blur-md bg-white/15 border border-gray-400/30 text-white rounded-full hover:bg-white/20 transition font-medium font-futuristic"
+                  className="px-10 py-5 text-lg backdrop-blur-md bg-white/15 border border-gray-400/30 text-white rounded-full hover:bg-white/20 transition font-light tracking-wide"
                 >
                   Get Started
                 </a>
@@ -91,7 +95,7 @@ function App() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Get in Touch</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light">
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light tracking-tight">
               Interested in learning more about our custom RIB boats? Fill out the form below and we'll get back to you as soon as possible.
             </p>
           </div>
