@@ -64,7 +64,7 @@ function App() {
         </div>
         
         <div className="relative w-full h-full">
-          <div className="absolute bottom-16 sm:bottom-10 w-full text-left max-w-none px-6 sm:px-8 lg:px-12 sm:max-w-3xl sm:pl-6 lg:pl-12">
+          <div className="absolute bottom-20 sm:bottom-10 w-full text-left max-w-none px-6 sm:px-8 lg:px-12 sm:max-w-3xl sm:pl-6 lg:pl-12">
             <div className="flex justify-center sm:justify-start">
               <img 
                 src="/textonlybanner.png" 
