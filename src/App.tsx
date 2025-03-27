@@ -64,7 +64,7 @@ function App() {
         </div>
         
         <div className="relative w-full h-full">
-          <div className="absolute bottom-10 w-full text-left max-w-none px-6 sm:px-8 lg:px-12 sm:max-w-3xl sm:pl-6 lg:pl-12">
+          <div className="absolute bottom-16 sm:bottom-10 w-full text-left max-w-none px-6 sm:px-8 lg:px-12 sm:max-w-3xl sm:pl-6 lg:pl-12">
             <div className="flex justify-center sm:justify-start">
               <img 
                 src="/textonlybanner.png" 
@@ -73,9 +73,8 @@ function App() {
               />
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-2xl sm:text-3xl text-gray-200 mb-8 font-light tracking-normal leading-relaxed">
+              <p className="text-2xl sm:text-3xl text-gray-200 mb-4 font-light tracking-normal leading-relaxed">
                 Gold Coast's leading specialists in Rigid Inflatable Boats. 
-                Contact us now so we can Custom Build your new RIB.
               </p>
               <div className="flex justify-center sm:justify-start space-x-4">
                 <a
